@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F82FCD9A2C3A728E005DD2EC /* LeiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82FCD992C3A728E005DD2EC /* LeiApp.swift */; };
+		F82FCD9C2C3A728E005DD2EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82FCD9B2C3A728E005DD2EC /* ContentView.swift */; };
+		F82FCD9E2C3A728E005DD2EC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82FCD9D2C3A728E005DD2EC /* Item.swift */; };
+		F82FCDA02C3A7292005DD2EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82FCD9F2C3A7292005DD2EC /* Assets.xcassets */; };
+		F82FCDA42C3A7292005DD2EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82FCDA32C3A7292005DD2EC /* Preview Assets.xcassets */; };
+		F82FCDAE2C3A7292005DD2EC /* LeiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82FCDAD2C3A7292005DD2EC /* LeiTests.swift */; };
+		F82FCDB82C3A7292005DD2EC /* LeiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82FCDB72C3A7292005DD2EC /* LeiUITests.swift */; };
+		F82FCDBA2C3A7292005DD2EC /* LeiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82FCDB92C3A7292005DD2EC /* LeiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F82FCDAA2C3A7292005DD2EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F82FCD8E2C3A728E005DD2EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F82FCD952C3A728E005DD2EC;
+			remoteInfo = Lei;
+		};
+		F82FCDB42C3A7292005DD2EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F82FCD8E2C3A728E005DD2EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F82FCD952C3A728E005DD2EC;
+			remoteInfo = Lei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F82FCD962C3A728E005DD2EC /* Lei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82FCD992C3A728E005DD2EC /* LeiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeiApp.swift; sourceTree = "<group>"; };
+		F82FCD9B2C3A728E005DD2EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F82FCD9D2C3A728E005DD2EC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F82FCD9F2C3A7292005DD2EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F82FCDA12C3A7292005DD2EC /* Lei.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lei.entitlements; sourceTree = "<group>"; };
+		F82FCDA32C3A7292005DD2EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F82FCDA92C3A7292005DD2EC /* LeiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82FCDAD2C3A7292005DD2EC /* LeiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeiTests.swift; sourceTree = "<group>"; };
+		F82FCDB32C3A7292005DD2EC /* LeiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82FCDB72C3A7292005DD2EC /* LeiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeiUITests.swift; sourceTree = "<group>"; };
+		F82FCDB92C3A7292005DD2EC /* LeiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F82FCD932C3A728E005DD2EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82FCDA62C3A7292005DD2EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82FCDB02C3A7292005DD2EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F82FCD8D2C3A728E005DD2EC = {
+			isa = PBXGroup;
+			children = (
+				F82FCD982C3A728E005DD2EC /* Lei */,
+				F82FCDAC2C3A7292005DD2EC /* LeiTests */,
+				F82FCDB62C3A7292005DD2EC /* LeiUITests */,
+				F82FCD972C3A728E005DD2EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F82FCD972C3A728E005DD2EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F82FCD962C3A728E005DD2EC /* Lei.app */,
+				F82FCDA92C3A7292005DD2EC /* LeiTests.xctest */,
+				F82FCDB32C3A7292005DD2EC /* LeiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F82FCD982C3A728E005DD2EC /* Lei */ = {
+			isa = PBXGroup;
+			children = (
+				F82FCD992C3A728E005DD2EC /* LeiApp.swift */,
+				F82FCD9B2C3A728E005DD2EC /* ContentView.swift */,
+				F82FCD9D2C3A728E005DD2EC /* Item.swift */,
+				F82FCD9F2C3A7292005DD2EC /* Assets.xcassets */,
+				F82FCDA12C3A7292005DD2EC /* Lei.entitlements */,
+				F82FCDA22C3A7292005DD2EC /* Preview Content */,
+			);
+			path = Lei;
+			sourceTree = "<group>";
+		};
+		F82FCDA22C3A7292005DD2EC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F82FCDA32C3A7292005DD2EC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F82FCDAC2C3A7292005DD2EC /* LeiTests */ = {
+			isa = PBXGroup;
+			children = (
+				F82FCDAD2C3A7292005DD2EC /* LeiTests.swift */,
+			);
+			path = LeiTests;
+			sourceTree = "<group>";
+		};
+		F82FCDB62C3A7292005DD2EC /* LeiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F82FCDB72C3A7292005DD2EC /* LeiUITests.swift */,
+				F82FCDB92C3A7292005DD2EC /* LeiUITestsLaunchTests.swift */,
+			);
+			path = LeiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F82FCD952C3A728E005DD2EC /* Lei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82FCDBD2C3A7292005DD2EC /* Build configuration list for PBXNativeTarget "Lei" */;
+			buildPhases = (
+				F82FCD922C3A728E005DD2EC /* Sources */,
+				F82FCD932C3A728E005DD2EC /* Frameworks */,
+				F82FCD942C3A728E005DD2EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lei;
+			productName = Lei;
+			productReference = F82FCD962C3A728E005DD2EC /* Lei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F82FCDA82C3A7292005DD2EC /* LeiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82FCDC02C3A7292005DD2EC /* Build configuration list for PBXNativeTarget "LeiTests" */;
+			buildPhases = (
+				F82FCDA52C3A7292005DD2EC /* Sources */,
+				F82FCDA62C3A7292005DD2EC /* Frameworks */,
+				F82FCDA72C3A7292005DD2EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F82FCDAB2C3A7292005DD2EC /* PBXTargetDependency */,
+			);
+			name = LeiTests;
+			productName = LeiTests;
+			productReference = F82FCDA92C3A7292005DD2EC /* LeiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F82FCDB22C3A7292005DD2EC /* LeiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82FCDC32C3A7292005DD2EC /* Build configuration list for PBXNativeTarget "LeiUITests" */;
+			buildPhases = (
+				F82FCDAF2C3A7292005DD2EC /* Sources */,
+				F82FCDB02C3A7292005DD2EC /* Frameworks */,
+				F82FCDB12C3A7292005DD2EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F82FCDB52C3A7292005DD2EC /* PBXTargetDependency */,
+			);
+			name = LeiUITests;
+			productName = LeiUITests;
+			productReference = F82FCDB32C3A7292005DD2EC /* LeiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F82FCD8E2C3A728E005DD2EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F82FCD952C3A728E005DD2EC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F82FCDA82C3A7292005DD2EC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F82FCD952C3A728E005DD2EC;
+					};
+					F82FCDB22C3A7292005DD2EC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F82FCD952C3A728E005DD2EC;
+					};
+				};
+			};
+			buildConfigurationList = F82FCD912C3A728E005DD2EC /* Build configuration list for PBXProject "Lei" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F82FCD8D2C3A728E005DD2EC;
+			productRefGroup = F82FCD972C3A728E005DD2EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F82FCD952C3A728E005DD2EC /* Lei */,
+				F82FCDA82C3A7292005DD2EC /* LeiTests */,
+				F82FCDB22C3A7292005DD2EC /* LeiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F82FCD942C3A728E005DD2EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82FCDA42C3A7292005DD2EC /* Preview Assets.xcassets in Resources */,
+				F82FCDA02C3A7292005DD2EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82FCDA72C3A7292005DD2EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82FCDB12C3A7292005DD2EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F82FCD922C3A728E005DD2EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82FCD9C2C3A728E005DD2EC /* ContentView.swift in Sources */,
+				F82FCD9E2C3A728E005DD2EC /* Item.swift in Sources */,
+				F82FCD9A2C3A728E005DD2EC /* LeiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82FCDA52C3A7292005DD2EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82FCDAE2C3A7292005DD2EC /* LeiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82FCDAF2C3A7292005DD2EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82FCDB82C3A7292005DD2EC /* LeiUITests.swift in Sources */,
+				F82FCDBA2C3A7292005DD2EC /* LeiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F82FCDAB2C3A7292005DD2EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F82FCD952C3A728E005DD2EC /* Lei */;
+			targetProxy = F82FCDAA2C3A7292005DD2EC /* PBXContainerItemProxy */;
+		};
+		F82FCDB52C3A7292005DD2EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F82FCD952C3A728E005DD2EC /* Lei */;
+			targetProxy = F82FCDB42C3A7292005DD2EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F82FCDBB2C3A7292005DD2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F82FCDBC2C3A7292005DD2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F82FCDBE2C3A7292005DD2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lei/Lei.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lei/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanglei.Lei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F82FCDBF2C3A7292005DD2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lei/Lei.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lei/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanglei.Lei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F82FCDC12C3A7292005DD2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanglei.LeiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lei.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lei";
+			};
+			name = Debug;
+		};
+		F82FCDC22C3A7292005DD2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanglei.LeiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lei.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lei";
+			};
+			name = Release;
+		};
+		F82FCDC42C3A7292005DD2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanglei.LeiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lei;
+			};
+			name = Debug;
+		};
+		F82FCDC52C3A7292005DD2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanglei.LeiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lei;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F82FCD912C3A728E005DD2EC /* Build configuration list for PBXProject "Lei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82FCDBB2C3A7292005DD2EC /* Debug */,
+				F82FCDBC2C3A7292005DD2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82FCDBD2C3A7292005DD2EC /* Build configuration list for PBXNativeTarget "Lei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82FCDBE2C3A7292005DD2EC /* Debug */,
+				F82FCDBF2C3A7292005DD2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82FCDC02C3A7292005DD2EC /* Build configuration list for PBXNativeTarget "LeiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82FCDC12C3A7292005DD2EC /* Debug */,
+				F82FCDC22C3A7292005DD2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82FCDC32C3A7292005DD2EC /* Build configuration list for PBXNativeTarget "LeiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82FCDC42C3A7292005DD2EC /* Debug */,
+				F82FCDC52C3A7292005DD2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F82FCD8E2C3A728E005DD2EC /* Project object */;
+}
