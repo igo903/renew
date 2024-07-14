@@ -10,62 +10,62 @@ import SwiftUI
 struct HomeView: View {
     
     var body: some View {
-        ZStack{
-            Color(red: 44.0/255, green: 22.0/255, blue: 91.0/255)
-            
-            // back layer, Moon
-            VStack{
-                HStack {
-                    Spacer()
-                    
-                    Image("Moon")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 85, height: 85)
-                        .padding(.top, 76)
-                        .padding(.trailing, 48)
-                }
-                
-                Spacer()
-            }
-            
-            // front layer, text
-            VStack {
-                HelloView()
-                
-                HStack {
-                    Text("Novice Album")
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .foregroundColor(.white)
+        ScrollView {
+            ZStack{
+                // back layer, Moon
+                VStack{
+                    HStack {
+                        Spacer()
+                        
+                        Image("Moon")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 85, height: 85)
+                            .padding(.top, 76)
+                            .padding(.trailing, 48)
+                    }
                     
                     Spacer()
                 }
-                .padding(.top, 28)
                 
-                NoviceAlbumList()
-                
-                HStack {
-                    Text("Mood Lib")
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .foregroundColor(.white)
+                // front layer, text
+                VStack {
+                    HelloView()
                     
-                    Spacer()
-                }
-                .padding(.top, 28)
-                
-                MoodLibList()
-                
-                PlanView()
+                    HStack {
+                        Text("Novice Album")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(.white)
+                        
+                        Spacer()
+                    }
                     .padding(.top, 28)
-                
-                Spacer()
+                    
+                    NoviceAlbumList()
+                    
+                    HStack {
+                        Text("Mood Lib")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(.white)
+                        
+                        Spacer()
+                    }
+                    .padding(.top, 28)
+                    
+                    MoodLibList()
+                    
+                    PlanView()
+                        .padding(.top, 28)
+                    
+                    Spacer()
+                }
+                .padding()
             }
-            .padding()
+            .edgesIgnoringSafeArea(.all)
+            
         }
-        .edgesIgnoringSafeArea(.all)
-        
     }
 }
 

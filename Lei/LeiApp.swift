@@ -29,6 +29,7 @@ struct LeiApp: App {
         WindowGroup {
 //            ContentView()
             HomeView()
+                .background(Color(red: 44.0/255, green: 22.0/255, blue: 91.0/255))
                 .environment(modelData)
         }
         .modelContainer(sharedModelContainer)
