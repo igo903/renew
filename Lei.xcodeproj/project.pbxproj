@@ -18,6 +18,10 @@
 		F82FCDB82C3A7292005DD2EC /* LeiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82FCDB72C3A7292005DD2EC /* LeiUITests.swift */; };
 		F82FCDBA2C3A7292005DD2EC /* LeiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82FCDB92C3A7292005DD2EC /* LeiUITestsLaunchTests.swift */; };
 		F82FCDC72C3A7538005DD2EC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82FCDC62C3A7538005DD2EC /* HomeView.swift */; };
+		F840BC1A2C43C94C00E8092B /* NoviceAlbumList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F840BC192C43C94C00E8092B /* NoviceAlbumList.swift */; };
+		F840BC1C2C43D5AF00E8092B /* MoodLibList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F840BC1B2C43D5AF00E8092B /* MoodLibList.swift */; };
+		F840BC1E2C43E2B300E8092B /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F840BC1D2C43E2B300E8092B /* HelloView.swift */; };
+		F840BC202C43E2F800E8092B /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F840BC1F2C43E2F800E8092B /* PlanView.swift */; };
 		F84A95892C4283E900E444F8 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A95882C4283E900E444F8 /* HexagonParameters.swift */; };
 		F84A958B2C4284DE00E444F8 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A958A2C4284DE00E444F8 /* BadgeBackground.swift */; };
 		F84A958D2C42893E00E444F8 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A958C2C42893E00E444F8 /* BadgeSymbol.swift */; };
@@ -66,6 +70,10 @@
 		F82FCDB72C3A7292005DD2EC /* LeiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeiUITests.swift; sourceTree = "<group>"; };
 		F82FCDB92C3A7292005DD2EC /* LeiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F82FCDC62C3A7538005DD2EC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F840BC192C43C94C00E8092B /* NoviceAlbumList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoviceAlbumList.swift; sourceTree = "<group>"; };
+		F840BC1B2C43D5AF00E8092B /* MoodLibList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLibList.swift; sourceTree = "<group>"; };
+		F840BC1D2C43E2B300E8092B /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
+		F840BC1F2C43E2F800E8092B /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
 		F84A95882C4283E900E444F8 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		F84A958A2C4284DE00E444F8 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		F84A958C2C42893E00E444F8 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
@@ -151,6 +159,10 @@
 			children = (
 				F82FCD992C3A728E005DD2EC /* LeiApp.swift */,
 				F82FCDC62C3A7538005DD2EC /* HomeView.swift */,
+				F840BC1D2C43E2B300E8092B /* HelloView.swift */,
+				F840BC192C43C94C00E8092B /* NoviceAlbumList.swift */,
+				F840BC1B2C43D5AF00E8092B /* MoodLibList.swift */,
+				F840BC1F2C43E2F800E8092B /* PlanView.swift */,
 				F8E208462C3C713900E5EA81 /* LandmarkViews */,
 				F8E208442C3C6F5200E5EA81 /* LandmarkModel */,
 				F8E208452C3C6F6E00E5EA81 /* LandmarkResources */,
@@ -366,15 +378,19 @@
 				F84A95962C42957600E444F8 /* LandmarkHome.swift in Sources */,
 				F80E4E1B2C3DB91500EC5118 /* FavoriteButton.swift in Sources */,
 				F82FCDC72C3A7538005DD2EC /* HomeView.swift in Sources */,
+				F840BC202C43E2F800E8092B /* PlanView.swift in Sources */,
 				F82FCD9E2C3A728E005DD2EC /* Item.swift in Sources */,
 				F8E208402C3C6DC200E5EA81 /* ModelData.swift in Sources */,
 				F82FCD9A2C3A728E005DD2EC /* LeiApp.swift in Sources */,
+				F840BC1C2C43D5AF00E8092B /* MoodLibList.swift in Sources */,
 				F84A958D2C42893E00E444F8 /* BadgeSymbol.swift in Sources */,
+				F840BC1E2C43E2B300E8092B /* HelloView.swift in Sources */,
 				F8E208362C3C3F9E00E5EA81 /* CircleImage.swift in Sources */,
 				F84A958B2C4284DE00E444F8 /* BadgeBackground.swift in Sources */,
 				F84A95892C4283E900E444F8 /* HexagonParameters.swift in Sources */,
 				F8E208482C3C71A200E5EA81 /* LandmarkRow.swift in Sources */,
 				F8E2084A2C3C739300E5EA81 /* LandmarkList.swift in Sources */,
+				F840BC1A2C43C94C00E8092B /* NoviceAlbumList.swift in Sources */,
 				F80E4E192C3DADC900EC5118 /* LandmarkDetail.swift in Sources */,
 				F84A958F2C4289F300E444F8 /* RotatedBadgeSymbol.swift in Sources */,
 			);
