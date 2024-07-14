@@ -2,7 +2,7 @@
 //  MoodLibList.swift
 //  Lei
 //
-//  Created by Xinxing Jiang on 2024/7/14.
+//  Created by Star Jiang on 2024/7/14.
 //
 
 import SwiftUI

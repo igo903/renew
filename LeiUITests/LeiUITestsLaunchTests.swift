@@ -2,7 +2,7 @@
 //  LeiUITestsLaunchTests.swift
 //  LeiUITests
 //
-//  Created by Xinxing Jiang on 2024/7/7.
+//  Created by Star Jiang on 2024/7/7.
 //
 
 import XCTest

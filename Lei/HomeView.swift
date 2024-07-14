@@ -2,7 +2,7 @@
 //  HomeView.swift
 //  Lei
 //
-//  Created by Xinxing Jiang on 2024/7/7.
+//  Created by Star Jiang on 2024/7/7.
 //
 
 import SwiftUI
@@ -66,6 +66,8 @@ struct HomeView: View {
             .edgesIgnoringSafeArea(.all)
             
         }
+        .background(Color(red: 9/255, green: 0, blue: 31/255)
+            .edgesIgnoringSafeArea(.all))
     }
 }
 

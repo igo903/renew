@@ -2,7 +2,7 @@
 //  LeiApp.swift
 //  Lei
 //
-//  Created by Xinxing Jiang on 2024/7/7.
+//  Created by Star Jiang on 2024/7/7.
 //
 
 import SwiftUI
@@ -29,7 +29,7 @@ struct LeiApp: App {
         WindowGroup {
 //            ContentView()
             HomeView()
-                .background(Color(red: 44.0/255, green: 22.0/255, blue: 91.0/255))
+//                .background(Color(red: 44.0/255, green: 22.0/255, blue: 91.0/255))
                 .environment(modelData)
         }
         .modelContainer(sharedModelContainer)

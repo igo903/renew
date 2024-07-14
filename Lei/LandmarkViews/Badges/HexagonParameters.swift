@@ -2,7 +2,7 @@
 //  HexagonParameters.swift
 //  Lei
 //
-//  Created by Xinxing Jiang on 2024/7/13.
+//  Created by Star Jiang on 2024/7/13.
 //
 
 import Foundation

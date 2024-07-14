@@ -2,7 +2,7 @@
 //  ModelData.swift
 //  Lei
 //
-//  Created by Xinxing Jiang on 2024/7/9.
+//  Created by Star Jiang on 2024/7/9.
 //
 
 import Foundation

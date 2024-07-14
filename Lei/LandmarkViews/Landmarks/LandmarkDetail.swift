@@ -2,7 +2,7 @@
 //  LandmarkDetail.swift
 //  Lei
 //
-//  Created by Xinxing Jiang on 2024/7/10.
+//  Created by Star Jiang on 2024/7/10.
 //
 
 import SwiftUI
